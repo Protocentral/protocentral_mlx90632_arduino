@@ -1,7 +1,6 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 //
-//   Arduino Library for Protocentral MLX90632
-
+// Protocentral Arduino Library for  MLX90632 Non-contact temperature sensor
 // If you have bought the breakout the connection with the Arduino board is as follows:
 //
 //|MLX pin label| Arduino Connection   |Pin Function      |
@@ -10,11 +9,14 @@
 //| SCL              | A5                  |  Serial Clock     |
 //| Vin              | 5V                  |  Power            |
 //| GND              | Gnd                 |  Gnd              |
-
+//
+//
+// Based on the original MLX90632 librry by Nathan Seidle, Sparkfun Electronics
 /////////////////////////////////////////////////////////////////////////////////////////
 
 #include "Protocentral_MLX90632.h"
 #include <Wire.h>
+
 Protocentral_MLX90632 ReadSensor;
 
 void setup()
