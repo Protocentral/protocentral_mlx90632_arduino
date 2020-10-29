@@ -1,5 +1,8 @@
 ## Protocentral MLX90632
 
+
+![Temperature sensor breakout](https://github.com/Protocentral/protocentral_mlx90632_arduino/blob/main/Docs/MLX90632%20Breakout.jpg)
+
 **ProtoCentral Infrared Non-Contact Thermometer (Qwiic) – MLX90632** is a miniature breakout for accurate non-contact temperature measurement, especially in thermally challenging environments.
 
 
